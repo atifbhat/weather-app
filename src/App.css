@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+
+input{
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  border-radius: 5px;
+  border:2px solid lightcoral;
+}
+
+input>hover{
+  
+ border:2px solid rgb(255, 122, 166);
+}
