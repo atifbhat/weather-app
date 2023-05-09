@@ -37,7 +37,7 @@ const WeatherCard  = (props) => {
 
   return (
     <div>
-     <Card variant="outlined" style={{justifyContent:"center", marginLeft: "470px"}} sx={{ width: 320 }}>
+     <Card variant="outlined" style={{justifyContent:"center", marginLeft:"50px"}} sx={{ width: 320 }}>
       <Typography level="h2" fontSize="md" sx={{ mb: 0.5 }}>
       {props?.details?.name}
       </Typography>
